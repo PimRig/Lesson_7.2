@@ -1,0 +1,97 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+
+.h1-tittle {
+	color: #1e212c;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	margin: 150px 0 25px 0;
+}
+
+.date {
+	margin: 0 25px 0 0;
+	background: url("../img/Calendar.svg") 0 0 / auto no-repeat;
+	padding: 0 0 0 20px;
+}
+
+.time {
+	background: url("../img/Clock.svg") 0 0 / auto no-repeat;
+	padding: 0 0 0 20px;
+}
+
+.time-header {
+	color: #787a80;
+	line-height: 1.6;
+	margin: 0 0 40px 0;
+}
+
+.img {
+	margin: 0 0 60px 0;
+	max-height: 360px;
+}
+.bold-p {
+	margin: 0 0 25px 0;
+}
+
+.bold,
+.quote-text {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+}
+.regular-1 {
+	margin: 0 0 24px 0;
+}
+
+.regular-1,
+.regular-2,
+.regular-3,
+.regular-4,
+.list-item {
+	color: #424551;
+	line-height: 1.6;
+}
+
+.main-p {
+	margin: 0 0 50px 0;
+}
+
+.quote-text {
+	padding: 0 0 0 58px;
+	background: url("../img/braces.svg") 0 0 / auto no-repeat;
+}
+
+.quote {
+	margin: 0 0 50px 0;
+}
+
+.list-p {
+	margin: 0 0 24px 0;
+}
+
+.list-item {
+	padding: 0 0 4px 22px;
+	background: url("../img/check.svg") 0 4px / auto no-repeat;
+	max-width: 600px;
+}
+
+.list {
+	margin: 0 0 25px 0;
+}
+
+.footer {
+	margin: 0 0 60px 0;
+}
